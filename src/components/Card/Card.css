@@ -1,0 +1,59 @@
+.card{
+    background-color: white;
+    width: 20%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: .5rem;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 0 12px 4px rgba(0, 0, 0, 0.1);
+    font-size: 1rem;
+
+}
+
+
+.heart{
+    position: absolute;
+    top:-10px;
+    right: 0px;
+    cursor: pointer;
+    background-color:   #e9a209;
+     border-radius: 0px 37.5px 0px 42.5px;
+    padding: 10px;
+
+}
+
+.heart-icon{
+    color: white;
+    font-size: 1.5rem;
+}
+.heart-icon:hover{
+    color: rgb(196, 4, 4);
+    font-size: 1.5rem;
+}
+
+
+.span-card-menu{
+    font-size: 1rem;
+    color: black;
+}
+
+
+.rated{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.icons-card{
+    color: #e9a209;
+
+}
+.finish-card{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}

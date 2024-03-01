@@ -1,0 +1,121 @@
+
+
+.home{
+    margin-top: 48px;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--color-primary-1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0rem 4rem;
+    
+    
+}
+
+.home-left{
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    padding: 0 2rem;
+}
+.buttons{
+    display: flex;
+    gap: 2rem;
+}
+.btn{
+    background-color: var(--color-primary-6);
+    color: var(--color-primary-1);
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+
+.social-medias{
+    display: flex;
+    gap: 1rem;
+    width: 100%;
+}
+.icon-social-media{
+    font-size: 2rem;
+    transition: 0.3s;
+
+}
+.icon-social-media:hover{
+    color: var(--color-primary-6);
+    cursor: pointer;
+}
+
+.home-right{
+
+    z-index: 2;
+}
+
+h1{
+    font-size: 3rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 2rem;
+}
+.you{
+    color: var(--color-primary-6)
+}
+
+.img-home{
+    width: 800px;
+    height: 100%;
+    object-fit: cover;
+  
+
+}
+
+.shape {
+    background-color: var(--color-primary-2);
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    border-radius: 40% 30% 0% 20%;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+@media screen and (max-width: 768px){
+    .home{
+        
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        padding: 2rem 2rem;
+    }
+    .home-left{
+        display: flex;
+        height: 100vh;
+        width: 100vw;
+        align-items: center;
+        text-align: center;
+    }
+    .social-medias{
+        display: flex;
+        justify-content: center;
+        gap: 1rem;
+    }
+   
+    .img-home{
+       display: none;
+    }
+    .shape{
+        display: none;
+    }
+    
+    
+}
