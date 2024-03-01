@@ -1,5 +1,6 @@
 import React from 'react'
 import './Menu.css'
+import '../Card/Card.css'
 import Card from '../Card/Card'
 
 import dish1 from '../../assets/dish.png'

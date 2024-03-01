@@ -1,0 +1,44 @@
+
+
+.rating-card{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 10px;
+}
+.image-rating{
+    margin: 1rem;
+}
+
+.name-stars{
+    color: var(--color-primary-6);
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+#name-card{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--color-primary-6);
+}	
+.star-rating{
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 470px){
+    .rating-card{
+        width: 100%;
+    }
+    .image-rating{
+        display: none;
+    }
+    
+}
+

@@ -1,5 +1,6 @@
 import React from 'react';
-import './Card.css';
+import '../Menu/Menu.css'
+
 import { FaStar } from "react-icons/fa";
 import { IoIosHeart } from "react-icons/io";
 import { GiBeachBag } from "react-icons/gi";
