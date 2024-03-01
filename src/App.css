@@ -4,5 +4,6 @@ body{
     line-height: 1.6;
     color: var(--color-neutral-1);
     background-color: var(--color-neutral-1);
+    overflow-x: hidden;
   
   }
