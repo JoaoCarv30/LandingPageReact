@@ -9,7 +9,7 @@ import { FaFacebook } from "react-icons/fa";
 
 const Home = () => {
   return (
-    <section className="home">  
+    <section id="home" className="home-class">  
     <div className="shape"></div>
       <div className="home-left">
         <div>

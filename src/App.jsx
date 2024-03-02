@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Home from './components/Main/Home'
 import Menu from './components/Menu/Menu'
 import { Rating } from './components/Rating/Rating'
+import Footer from './components/Footer/Footer'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Home />
       <Menu />
       <Rating />
+      <Footer />
     </>
   )
 } 

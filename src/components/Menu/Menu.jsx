@@ -11,7 +11,7 @@ import dish4 from '../../assets/dish4.png'
 const Menu = () => {
   return (
     
-    <section className='cardapio'>
+    <section id='menu' className='cardapio'>
         <h3 id='title-cardapio'>Cardapio</h3>
         <h2 id='subtitle-cardapio'>Confira nossos pratos</h2>
 

@@ -1,0 +1,18 @@
+
+footer{
+    background-image: url(../../assets/wave.svg);
+    background-size: cover;
+    background-position: center;
+    padding: 50px 0;
+    text-align: center;
+    color: #6c757d;
+    font-size: 14px;
+    border-top: 1px solid #e9ecef;
+    background-color: var(--color-primary-2);
+}
+
+
+strong{
+    color: #000000;
+
+}

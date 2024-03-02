@@ -11,7 +11,7 @@ export const Rating = () => {
   return (
 
 
-    <section className='rating'>
+    <section id='testimonials' className='rating'>
         <img src={chef} alt="" className='image-chef' />
 
 
